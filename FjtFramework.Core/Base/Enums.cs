@@ -39,5 +39,13 @@
     }
 
     // Another services
+    public enum ArticleStatus
+    {
+        Draft = 1,
+        Unpublish,
+        Published,
+        Archived,
+        Hidden
+    }
 
 }
